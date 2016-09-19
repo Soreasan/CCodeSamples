@@ -1,0 +1,13 @@
+Quick Git Reference:
+
+git add *
+Stages all files
+
+git commit -m "commit message"
+Commits all stage files
+
+git status 
+Display status of repository
+
+git init 
+Create new repository
