@@ -1,4 +1,5 @@
 Quick Git Reference:
+https://www.howtoforge.com/tutorial/install-git-and-github-on-ubuntu-14.04/
 
 git add *
 Stages all files
@@ -11,3 +12,6 @@ Display status of repository
 
 git init 
 Create new repository
+
+git push origin master
+push the local repository contents into the remote host repository
