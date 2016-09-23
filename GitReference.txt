@@ -35,3 +35,7 @@ git pull origin master
 
 To check the status of your files use:
 git status
+
+To remove a file from the folder and ensure it shows up online use:
+git rm filename
+http://stackoverflow.com/questions/12481639/remove-files-from-git-commit
