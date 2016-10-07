@@ -11,10 +11,13 @@ has done anything.
 
 #include <stdio.h>
 #include <stdlib.h>
+#include <string.h>
+
+int trim(char s[]);
 
 int main()
 {   char myString[] = "Hello world!\n\t    ";
-    printf("The phrase above has a newline, a tab, and 4 spaces.  This means it should say \"Removed whitespace from the end.\" about 6 times.\n");
+    printf("\nThe phrase above has a newline, a tab, and 4 spaces.  This means it should say \"Removed whitespace from the end.\" about 6 times.\n");
     printf("\n%s\n", myString);
     int whatIsThis = trim(myString);
     printf("\n%s\n", myString);

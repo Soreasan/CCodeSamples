@@ -12,7 +12,7 @@ int test();
 
 int main()
 {
-  int pokemon = test();
+  int myTest = test();
   return 0;
 }
 
