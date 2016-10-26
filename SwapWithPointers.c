@@ -1,3 +1,9 @@
+/*
+Kenneth Adair
+K&R pg. 96
+This program swaps two integer values using pointers.
+ */
+
 #include <stdio.h>
 
 void swap(int *px, int *py);
